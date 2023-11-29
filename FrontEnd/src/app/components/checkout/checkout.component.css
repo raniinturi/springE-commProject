@@ -1,0 +1,21 @@
+/* Add a new class for the checkbox */
+.visible-checkbox {
+    display: flex; /* Use flexbox to align items in a row */
+    align-items: center; /* Align items vertically in the center */
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Apply styles to the input inside the new class */
+.visible-checkbox input {
+    margin-right: 10px; /* Adjust the spacing between the checkbox and title */
+}
+
+/* Apply styles to the title span inside the new class */
+.visible-checkbox span {
+    font-size: 18px; /* Adjust the font size of the title */
+}

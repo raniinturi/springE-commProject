@@ -1,0 +1,17 @@
+/* In your component's CSS or global styles */
+a.btn.btn-primary {
+    background-color:  #00c3ff;
+    border-color:  #00c3ff;
+    color:  rgba(255, 255, 255, 0.947);
+  }
+  
+
+  /* In your component's CSS or global styles */
+a.btn.btn-primary.box {
+    margin-top: -10px; /* Adjust the value to move it up */
+    margin-left: 27px; /* Adjust the value to move it right */
+    margin-bottom: 10px; /* Adjust the value to move it right */
+    
+}
+  
+  
